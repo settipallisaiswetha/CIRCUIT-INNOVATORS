@@ -73,14 +73,14 @@ void loop()
     {
       
       
-      lcd.setCursor(1,0);
+   lcd.setCursor(1,0);
       lcd.print("Safe to use");
       Serial.println("Safe to Use");
     }
       else
       {       
       
-      lcd.setCursor(1,0);
+   lcd.setCursor(1,0);
       lcd.print("Dangerous");
       Serial.println("Dangerous");
         delay(1000);
@@ -106,13 +106,13 @@ void loop()
          delay(500);
          lcd.clear();
         
-        //LCD display for TDS
-    lcd.setCursor(1,0); lcd.print("TDS");
+  //LCD display for TDS
+   lcd.setCursor(1,0); lcd.print("TDS");
     lcd.setCursor(7,0); lcd.print(TDS1);
         delay(500);
         lcd.clear();
           
-        if (signal>=0 && signal <=512){
+  if (signal>=0 && signal <=512){
     lcd.setCursor(1,0); lcd.print("black water");
        
   }
@@ -122,12 +122,7 @@ void loop()
     lcd.clear();
   }
        
-      }
+   }
 
 }
    
-  
-  
-  
-  
-  
