@@ -48,7 +48,6 @@ void loop()
   pinMode(18, INPUT);
   float signal;
   signal = analogRead(A4);
-  
   //IR end
   
   Serial.print("temperature:"); 
