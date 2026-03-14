@@ -1,12 +1,12 @@
 
-# 💧 Water Quality Monitoring System (Arduino)
+#  Water Quality Monitoring System (Arduino)
 
-## 🌟 Overview
+##  Overview
 This project implements an Arduino-based water quality monitoring system using several sensors (Temperature, Turbidity, TDS, pH, and Color/Clarity via IR sensor). Data is displayed on a 16x2 LCD and streamed to the Serial Monitor. A logic check determines if the water is "Safe to use" for domestic purposes.
 
----
 
-## ⚙️ Hardware Components
+
+##  Hardware Components
 
 * Microcontroller: Arduino Uno (or compatible).
 * Display: 16x2 Liquid Crystal Display (LCD).
@@ -17,9 +17,9 @@ This project implements an Arduino-based water quality monitoring system using s
 * Clarity Sensor: Analog IR Sensor.
 * Control Input: Push Button/Switch on Digital Pin 6 (for mode selection).
 
----
 
-## 🔌 Wiring and Connections
+
+##  Wiring and Connections
 
 | Component | Arduino Pin(s) | Notes |
 | :--- | :--- | :--- |
@@ -31,9 +31,9 @@ This project implements an Arduino-based water quality monitoring system using s
 | **IR Sensor** | **A4** (Alias 18) | Analog Input |
 | **Mode Switch** | **D6** | Digital Input |
 
----
 
-## 💻 Key Calculation Formulas
+
+##  Key Calculation Formulas
 
 1.  **Temperature (TMP36):**
     Voltage (V) = (Analog Reading / 1024.0) * 5.0
@@ -49,7 +49,7 @@ This project implements an Arduino-based water quality monitoring system using s
 
 ---
 
-## 🏃 Operation Modes
+##  Operation Modes
 
 Controlled by the switch on Digital Pin **D6**:
 
